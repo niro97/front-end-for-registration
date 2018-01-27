@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+<meta name="handheldFriendly" content="true">
+<head>
+<style>
+.p{
+text-overflow: ellipsis; 
+overflow: hidden;
+ }
+ img{
+max-width:92%;
+height:480px;
+padding-left:10px;
+padding-right:10px;
+}
+ td{
+  color:black;
+  font-size:150%;
+  }
+ h1{
+ text-align:center;
+ padding-top:6px;
+ color:orange;
+ padding-bottom:4px;
+ }
+ table{
+ margin-top:20px;
+ }
+@media only screen and (max-width:500px)
+{
+.menu, .main, .right{
+width:100%;
+}
+@media only screen and (max-width:800px)
+{.main{
+width:80%;
+}
+.right{
+width:100%;
+}
+}
+
+</style>
+</head>
+<body>
+<div  class="p" style="background-color:black;width:100%;height:70px;float:left;">
+<td><h1>REGISTER</h1></td>  
+</div>
+<div  class="p" style="background-color:orange;width:100%;height:12px;float:left;">  
+</div>
+<div class="p" style="background-color:black;width:100%;height:15px;float:left;">  
+</div>
+<div class="p" style="background-color:black;width:30%;height:480px;float:left;">
+<img src="images.jpg">  
+</div>
+ <div class="p" style="background-color:orange;width:70%;height:auto;float:left;">
+<form action="#" method="post" >
+<table align="center"><tr><td>
+<tr><td>Name:</td><td><input type='text' style='background-color:black;color:white; font-weight:bold;' name='username' maxlength='50' value='' required="required"></td></tr>
+<tr><td></td></tr>
+<tr><td>Age:</td><td><input type='text' style='background-color:black;color:white; font-weight:bold;' name='age' maxlength='3' value='' required="required"></td></tr>
+<tr><td></td></tr>
+<tr><td>Country:</td><td><select name="select" style='background-color:black;color:white; font-weight:bold;' name='country' value='' required="required">
+   <option value="s">Select the country..</option>
+  <option value="india">India</option>
+  <option value="amer">America</option>
+  <option value="aust">Australia</option>
+  <option value="japan">Japan</option></select></td></tr>
+<tr><td></td></tr>
+ <tr><td>Address:</td><td><textarea cols="15" rows="5" input type='text' style='background-color:black;color:white; font-weight:bold;' name='address' maxlength='100'  value='' required="required"></textarea></td></tr>
+<tr><td></td></tr>
+ <tr><td>Sex:</td><td><input type='radio' style='background-color:black;color:white; font-weight:bold;' name='sex'  value='male' >Male</td></tr>
+<tr><td>    </td><td><input type='radio' style='background-color:black;color:white; font-weight:bold;' name='sex'  value='female'>Female</td></tr>
+<tr><td></td></tr>
+<tr><td>Course:</td><td><select name="select"  style='background-color:black;color:white; font-weight:bold;' name='course' value='' required="required">
+   <option value="s">Select the course..</option>
+  <option value="indk">CSE</option>
+  <option value="amn">IT</option>
+  <option value="us">BME</option>
+  <option value="ap">AERO</option>
+  <option value="sn">CIVIL</option>
+  <option value="id">ECE</option>
+  <option value="m">EEE</option>
+  <option value="as">GENETIC</option>
+  <option value="jp">ARTS</option>
+  <option value="s">MEDICAL</option>
+  <option value="in">BIO</option>
+  <option value="am">PHY</option>
+  <option value="au">CHM</option>
+  <option value="ja">ZOO</option></select></td></tr>
+<tr><td></td></tr>
+ <tr><td>E-mail:</td><td><input type='email' style='background-color:black; color:white;font-weight:bold;' name='mail' maxlength='25' value='' required></td></tr>
+<tr><td></td></tr>
+ <tr><td>Password:</td><td><input type='password' style='background-color:black; color:white;font-weight:bold;' name='confirm' maxlength='15' value='' required></td></tr>
+<tr><td></td></tr>
+ <tr><td>Image:</td><td><input type="file" name="upload" value="Upload"></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td>&nbsp;</td><td><input type='submit' name='submit' value='Register Account'/></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+</tr></td></table>
+</form>
+</div>
+<div class="p" style="background-color:black;width:100%;height:15px;float:left;">  
+</div>
+<div class="p" style="background-color:orange;width:100%;height:15px;float:left;">  
+</div>
+<div class="p" style="background-color:black;width:100%;height:35px;float:left;">  
+</div>
+</body>
+</html>
